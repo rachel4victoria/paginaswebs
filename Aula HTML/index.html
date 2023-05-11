@@ -6,11 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Apresentação</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style/style.css">
 </head>
 
 <body>
-    <header></header>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.html">Home</a>
+            <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+            <a class="cabecalho__menu__link" href="curriculo.html"> Currículo</a>
+        </nav>
+         
+    </header>
     <main class="apresentacao">
         <section class="apresentacao__conteudo">
             <div class="espaco__conteudo">
@@ -21,15 +28,24 @@
             <div  class="espaco__conteudo">
                 <p class="apresentacao__conteudo__texto"> Olá, sou Rachel Pereira, desenvolvedor de Front-End com especialidade em HTML, CSS e futuramente JavaScript. Estou aprendendo programação para ajudar pequenos negócios e designer a colocarem em prática boas ideias. Vamos conversar? </p>
             </div>
-            <div class="apresentacao__links">
+           
                 <h2 class="apresentacao__links__subtitulo">Acesse minhas redes </h2>
-                <a class="apresentacao__links__link" href="https://www.linkedin.com/in/rachel-victória-60a26019b/">Linkedin</a>
-                <a class="apresentacao__links__link" href="https://github.com/rachel4victoria">GitHub</a>
+                <div class="apresentacao__links">
+                    <a class="apresentacao__links__link" href="https://github.com/rachel4victoria">
+                    <img class="simbolo__links" src="./assets/github.png" >
+                    GitHub
+                </a>
+                <a class="apresentacao__links__link" href="https://www.linkedin.com/in/rachel-victória-60a26019b/">
+                    <img class="simbolo__links" src="./assets/linkedin.png">
+                    Linkedin
+                </a>
             </div>
             </section>
-        <img class="imagem__conteudo" src="imagem.jpg" alt="Foto da Rachel Victória">
+        <img class="imagem__conteudo" src="./assets/imagem.jpg" alt="Foto da Rachel Victória">
     </main>
-    <footer></footer>
+    <footer class="rodape">
+        <p> Desenvolvido por Rachel Pereira</p>
+    </footer>
 </body>
 
 </html>

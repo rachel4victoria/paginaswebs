@@ -4,7 +4,7 @@
 #  Nome do projeto
 Projeto determinado para dar início ao meu portifólio, onde estou me apresentando meu currículo.
 
-# Tecnologias ultilizadas
+# Tecnologias utilizadas
 - HTML.
 - CSS.
 - Color Hunt ( para determinar uma paleta de cor).
